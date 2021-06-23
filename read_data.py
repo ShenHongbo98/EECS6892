@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import math
 import numpy as np
 
-csv_data = pd.read_csv('G:\\files\\21Summer\\6892\\assignment2\\data.csv')  # 读取训练数据
+csv_data = pd.read_csv('data.csv')  # 读取训练数据
 
 Q_rewards = list(-csv_data['Q-learning'])
 SARSA_rewards = list(-csv_data['SARSA'])
